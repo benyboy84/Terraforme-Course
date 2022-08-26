@@ -10,10 +10,10 @@ consul agent -bootstrap -config-file="config/consul-config.hcl" -bind="127.0.0.1
 export CONSUL_HTTP_TOKEN=SECRETID_VALUE
 
 # Windows
-$env:CONSUL_HTTP_TOKEN="SECRETID_VALUE"
+$env:CONSUL_HTTP_TOKEN="a4a7f9bd-b408-46bb-613f-09ab38493326"
 
 ### Try to run terraform init with a bad command switch
-terraform init -backend-confi="path=applications/state/globo-primary"
+terraform init -backend-config="path=applications/state/globo-primary"
 
 # Now let's go into the applications directory
 cd .\applications
@@ -54,7 +54,7 @@ terraform taint aws_cloudwatch_metric_alarm.scale_down_alarm
 terraform taint aws_cloudwatch_metric_alarm.scale_up_alarm
 
 terraform plan -out dev.tfplan
-terraform apply "dev.tfplan
+terraform apply "dev.tfplan"
 
 ### Fix error and try again
 

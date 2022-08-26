@@ -9,7 +9,7 @@ cd consul
 export CONSUL_HTTP_TOKEN=SECRETID_VALUE
 
 # Windows
-$env:CONSUL_HTTP_TOKEN="SECRETID_VALUE"
+$env:CONSUL_HTTP_TOKEN="ea3f22ed-9fcf-fea9-9db4-823fe9fa2b33"
 
 # Write the configuration data for globo-primary config
 consul kv put networking/configuration/globo-primary/net_info @globo-primary.json

@@ -21,7 +21,7 @@ cd consul
 export CONSUL_HTTP_TOKEN=SECRETID_VALUE
 
 # Windows
-$env:CONSUL_HTTP_TOKEN="SECRETID_VALUE"
+$env:CONSUL_HTTP_TOKEN="ea3f22ed-9fcf-fea9-9db4-823fe9fa2b33"
 
 # Write the configuration data for additional workspaces config
 consul kv put networking/configuration/globo-primary/development/net_info @dev-net.json
@@ -57,7 +57,7 @@ terraform apply qa.tfplan
 export CONSUL_HTTP_TOKEN=SECRETID_VALUE
 
 # Windows
-$env:CONSUL_HTTP_TOKEN="SECRETID_VALUE"
+$env:CONSUL_HTTP_TOKEN="7fcb9fa3-3c2c-ee2f-dfc9-a7975dde2b47"
 
 ## Now we can add the application data to consul
 # Go into the consul folder
