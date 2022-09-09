@@ -1,0 +1,10 @@
+export TF_VAR_sec_vnet_id=/subscriptions/6370ce7b-07c6-4986-8443-4dcc79b3e00d/resourceGroups/security/providers/Microsoft.Network/virtualNetworks/security
+
+export TF_VAR_sec_vnet_name=security
+export TF_VAR_sec_sub_id=6370ce7b-07c6-4986-8443-4dcc79b3e00d
+export TF_VAR_sec_client_id=5fa6bd20-7dc1-4873-b54c-37cbade256e3
+export TF_VAR_sec_principal_id=1293c0cf-a8c4-44f2-ac00-ab863cd25f2f
+export TF_VAR_sec_client_secret='WEf)4Hj8Y1$[l1Ld'
+export TF_VAR_sec_resource_group=security
+export TF_VAR_sec_tenant_id=0f9829d3-a628-4f2b-a3ac-58e0740d27ae
+
